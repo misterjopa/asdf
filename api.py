@@ -57,7 +57,7 @@ def handle_dialog(req, res):
             ]
         }
 
-        res['response']['text'] = 'Привет! Купи слона!'
+        res['response']['text'] = 'Привет, это Оксана! Я сегодня вместо Алисы. Злой Яндекс, не отпустил её на свадьбу. sil <[500]> Иван, попросил меня, поздравить, и развеселить вас. Спросите что я умею.'
         res['response']['buttons'] = get_suggests(user_id)
         return
 
